@@ -1,9 +1,16 @@
-import './App.css';
+import React from 'react';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import {BrowserRouter as Router} from "react-router-dom" 
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Home</h1>
+    <div>
+      <Router>
+        <Navbar/>
+      </Router>
     </div>
   );
 }

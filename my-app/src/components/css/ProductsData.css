@@ -1,0 +1,48 @@
+.products-card{
+    align-items: center;
+}
+
+.main-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+.prod-img{
+    width: 100%;
+    max-width: 300px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: center;
+
+}
+
+.prod-name{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.prod-id{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.prod-price{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
