@@ -2,13 +2,14 @@ import React from 'react'
 import CartIcon from "./svg/cart-plus-solid.svg"
 import Menu from './svg/bars-solid.svg';
 import Close from './svg/window-close-regular.svg';
-import {BrowserRouter as Route,Switch,Link,Redirect} from "react-router-dom" 
+import {BrowserRouter as Route,Switch,Link} from "react-router-dom" 
 import About from"./About"
 import Login from "./Login"
 import Home from "./Home"
 import Cart from "./Cart"
 import Products from './Products';
 import "./css/Navbar.css"
+import ErrorPage from './ErrorPage';
 
 
 export default function Navbar() {
@@ -59,7 +60,7 @@ export default function Navbar() {
                         <Login/>
                     </Route>
                     <Route  path="*">
-                        <Redirect to = "/"/>
+                        <ErrorPage/>
                     </Route>
               </Switch>
         </div>

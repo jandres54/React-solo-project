@@ -1,5 +1,13 @@
 import { combineReducers } from "redux";
-// Import your reducers and put them inside of here so you have access to the store.
-const rootReducer = combineReducers({});
+import cartReducer from "./Cart-reducer"
+import removeItemReducer from "./RemoveFromCart"
+
+
+const rootReducer = combineReducers({
+    cartReducer,
+    removeItemReducer,
+
+
+});
 
 export default rootReducer;

@@ -1,0 +1,13 @@
+.prod-in-cart{
+    align-items: center;
+}
+
+.prod-in-cart{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
