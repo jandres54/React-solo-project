@@ -1,16 +1,16 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import CartCard from './ProductsCard';
+import CartCard from './CartCard';
 
-export default function Cart() {
-    const addedToCart = useSelector((state) => state.cart);
+export default function Cart(props) {
+    const addedToCart = useSelector((state) => state.cartReducer);
     console.log(addedToCart);
     return (
       <div>
         <h1>Cart</h1>
-        <img src={addedToCart.image} alt="" />
+        
         {addedToCart.map((product) => (
-          <CartCard product={product} />
+          <CartCard key={product.id}product={product} />
         ))}
       </div>
     );

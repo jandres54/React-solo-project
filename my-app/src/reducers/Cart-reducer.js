@@ -12,3 +12,15 @@ const cartReducer = (state = initialState, action) => {
     }
   };
   export default cartReducer;
+
+
+
+
+
+
+
+// - Add product to cart
+// - Remove product from cart
+// - media queries for mobile responsiveness
+// - layout 
+// - All in react redux using reducers and actions 

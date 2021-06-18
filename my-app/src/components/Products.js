@@ -24,8 +24,10 @@ export default function Products() {
         <div className="prod-container">
             <h1>Products</h1>
             <div className="products-card">
+                
                 {products.map((productsFromCache)=> {
-                    return( <ProductsCard productsFromCache={productsFromCache}/>)
+                    console.log(productsFromCache)
+                    return( <ProductsCard key={productsFromCache.id} productsFromCache={productsFromCache}/>)
                 })}
 
             </div>

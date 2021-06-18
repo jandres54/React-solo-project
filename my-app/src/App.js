@@ -6,6 +6,7 @@ import {BrowserRouter as Router} from "react-router-dom"
 
 
 const App = () => {
+  console.log("clicked")
   return (
     <div>
       <Router>

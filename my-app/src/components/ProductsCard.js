@@ -4,6 +4,8 @@ import { useDispatch } from "react-redux";
 
 export default function ProductsCard(props) {
     const dispatch = useDispatch();
+
+    console.log(props.productsFromCache)
     return (
         <div className="main-container">
             
