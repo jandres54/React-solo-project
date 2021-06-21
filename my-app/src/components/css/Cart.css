@@ -1,0 +1,27 @@
+.prod-card{
+    min-width: 300px;
+    min-height: 400px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 8px 20px #ddd;
+    margin: 10px;
+    transition: 0.5s linear;
+    
+}
+
+.prod-img{
+    width: 100%;
+    max-width: 300px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: center;
+
+}
+
+
+.prod-card :hover{
+    box-shadow: none;
+}
+

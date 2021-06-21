@@ -7,7 +7,6 @@ export default function Cart(props) {
     console.log(addedToCart);
     return (
       <div>
-        <h1>Cart</h1>
         
         {addedToCart.map((product) => (
           <CartCard key={product.id}product={product} />

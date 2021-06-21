@@ -1,13 +1,14 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { removeFromCart } from "../actions/removeFromCart";
+import "./css/Cart.css"
 
 export default function CartCard(props) {
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="prod-card">
       <p>{props.product.name}</p>
-      <img src={props.product.image} alt="" />
+      <img className="prod-img" src={props.product.image} alt="" />
       <p>{props.product.description}</p>
       
       <button onClick={() => removeFromCart(dispatch, props.product.id)}>
