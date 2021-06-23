@@ -1,5 +1,6 @@
 import React from 'react'
 import CartIcon from "./svg/cart-plus-solid.svg"
+import {useSelector} from 'react-redux'
 import Menu from './svg/bars-solid.svg';
 import Close from './svg/window-close-regular.svg';
 import {BrowserRouter as Route,Switch,Link} from "react-router-dom" 
@@ -13,6 +14,7 @@ import ErrorPage from './ErrorPage';
 
 
 export default function Navbar() {
+    const addedToCart = useSelector((state) => state.cartReducer);
     return (
         <div>
             <header>
@@ -34,7 +36,7 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div className="nav-cart">
-                        <span>0</span>
+                        <span>{addedToCart.length}</span>
                         <Link to="cart">
                         <img src={CartIcon} alt="" width="20"/>
                         </Link>

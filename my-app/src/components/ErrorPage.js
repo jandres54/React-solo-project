@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function ErrorPage() {
     return (
-        <div>
+        <div className="err-page">
             <h1>
-                404 Error
+                404 PAGE NOT FOUND
             </h1>
         </div>
     )

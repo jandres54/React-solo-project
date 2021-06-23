@@ -16,71 +16,71 @@ export const  ProductData = {
    Products: [
        {
       image: Jordan4,
-      id: "001",
+      sku: "001",
       name: "Jordan 4 G NRG",
-      price: 220,
+      price: "220",
       
     },
     {
       image: NikeCU,
-      id: "002",
+      sku: "002",
       name: "Nike Cosmic Unity",
-      price: 150,
+      price: "150",
       
     },
     {
       image: NikeCA,
-      id: "003",
+      sku: "003",
       name: "Nike Crater Impact",
-      price: 100,
+      price: "100",
       
     },
     {
       image: NikeMC,
-      id: "004",
+      sku: "004",
       name: "Nike Metcon 6",
-      price: 130,
+      price: "130",
       
     },
     {
       image: AF1Premuin,
-      id: "005",
+      sku: "005",
       name: "Nike Air Force 1 07 Premium",
-      price: 130,
+      price: "130",
       
     },
     {
-        id: "006",
+        sku: "006",
         name: "Nike SB Zoom Blazer Mid Premium",
-        price: 110,
+        price: "110",
         image: NikeSB,
       },
       {
         image: NikeAirZoom,
-        id: "007",
+        sku: "007",
         name: "Nike Air Zoom Terra Kiger 7",
-        price: 140,
+        price: "140",
         
       },
       {
          image: NikeReact,
         id: "008",
         name: "Nike React Phantom Run Flyknit 2",
-        price: 140,
+        price: "140",
        
       },
       {
         image: NikeVic,
         id: "009",
         name: "Nike Victori One",
-        price: 35,
+        price: "35",
         
       },
       {
         image: NikeAM90,
         id: "010",
         name: "Nike Air Max 90",
-        price: 75,
+        price: "75",
         
       },
     ]}
