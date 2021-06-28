@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import "./css/ProductsData.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
     
@@ -16,7 +17,7 @@ export default function Home() {
                 />
                 <Carousel.Caption>
                 <h3 className="slide-one">Nike Air Force 1 '07 LV8</h3>
-                <p className="slide-one">The Nike Air Force 1 '07 LV8. The OG icon you know and love is refreshed with details to highlight the tourney that aims to unify and make NYC basketball the best in the country.</p>
+                <p className="slide-one">The OG icon you know and love is refreshed with details to highlight the tourney that aims to unify and make NYC basketball the best in the country.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >
@@ -27,7 +28,7 @@ export default function Home() {
                 />
                 <Carousel.Caption>
                 <h3 className="slide-one">Nike Air Force 1 '07 LV8</h3>
-                <p className="slide-one">Keep the funk alive in your Nike Air Force 1 ’07 LV8, the basketball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine.</p>
+                <p className="slide-one">The basketball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

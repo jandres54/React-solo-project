@@ -2,7 +2,7 @@ import React from 'react';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import {BrowserRouter as Router} from "react-router-dom" 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
