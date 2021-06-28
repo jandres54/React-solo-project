@@ -11,7 +11,7 @@ export default function CartCard(props) {
       <img className="prod-img" src={props.product.image} alt="" />
       <p>{props.product.description}</p>
       
-      <button onClick={() => removeFromCart(dispatch, props.product.id)}>
+      <button onClick={() => removeFromCart(dispatch, props.product.sku)}>
         Remove
       </button>
     </div>

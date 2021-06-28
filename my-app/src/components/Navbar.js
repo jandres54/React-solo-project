@@ -3,6 +3,7 @@ import CartIcon from "./svg/cart-plus-solid.svg"
 import {useSelector} from 'react-redux'
 import Menu from './svg/bars-solid.svg';
 import Close from './svg/window-close-regular.svg';
+
 import {BrowserRouter as Route,Switch,Link} from "react-router-dom" 
 import About from"./About"
 import Login from "./Login"
