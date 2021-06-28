@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-
+import "./css/ProductsData.css"
 
 export default function Home() {
     
@@ -15,19 +15,19 @@ export default function Home() {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>Nike Air Force 1 '07 LV8</h3>
-                <p>The Nike Air Force 1 '07 LV8. The OG icon you know and love is refreshed with details to highlight the tourney that aims to unify and make NYC basketball the best in the country.</p>
+                <h3 className="slide-one">Nike Air Force 1 '07 LV8</h3>
+                <p className="slide-one">The Nike Air Force 1 '07 LV8. The OG icon you know and love is refreshed with details to highlight the tourney that aims to unify and make NYC basketball the best in the country.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item >
                 <img
                 className="d-block w-100"
                 src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/83d09483-7595-4fcb-bef0-1f68bc0a5a55/air-force-1-07-lv8-mens-shoe-xKjNh7.png"
                 alt="Second slide"
                 />
                 <Carousel.Caption>
-                <h3>Nike Air Force 1 '07 LV8</h3>
-                <p>Keep the funk alive in your Nike Air Force 1 ’07 LV8, the basketball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine.</p>
+                <h3 className="slide-one">Nike Air Force 1 '07 LV8</h3>
+                <p className="slide-one">Keep the funk alive in your Nike Air Force 1 ’07 LV8, the basketball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -37,8 +37,8 @@ export default function Home() {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                <h3>Air Jordan 1 Mid</h3>
-                <p>The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering fans of Jordan retros a chance to follow in the footsteps of greatness. Fresh color trims the clean, classic materials, injecting some newness into the familiar design.</p>
+                <h3 className="slide-one">Air Jordan 1 Mid</h3>
+                <p className="slide-one">The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering fans of Jordan retros a chance to follow in the footsteps of greatness.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
