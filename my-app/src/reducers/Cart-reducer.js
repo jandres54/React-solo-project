@@ -1,5 +1,6 @@
 import { ADD_TO_CART } from "../action-types/cart-action-types";
 import { REMOVE_FROM_CART} from "../action-types/remove-action-type";
+import { RESET_APP } from "../action-types/reset-action-type";
 
 const initialState = [];
 
@@ -8,9 +9,14 @@ const cartReducer = (state = initialState, action) => {
     switch (action.type) {
       case ADD_TO_CART:
         return [ ...state, action.payload];
-        case  REMOVE_FROM_CART:
-          const stateOfShoes = state.filter((product) => product.id !== action.payload)
+      case  REMOVE_FROM_CART:
+        const stateOfShoes = state.filter((product) => product.sku !== action.payload)
           return stateOfShoes;
+
+      case RESET_APP:
+          return state = action.payload ;   
+
+
       default:
         return state;
     }

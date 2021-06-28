@@ -1,14 +1,28 @@
 .products-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    
 }
 
 .main-container{
-    width: 50%;
+    
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    width: 200px;
+    max-height: 4250px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 8px 20px #ddd;
+    margin: 10px;
+    transition: 0.5s linear;
 
+ 
 }
 
 

@@ -64,21 +64,21 @@ export const  ProductData = {
       },
       {
          image: NikeReact,
-        id: "008",
+        sku: "008",
         name: "Nike React Phantom Run Flyknit 2",
         price: "140",
        
       },
       {
         image: NikeVic,
-        id: "009",
+        sku: "009",
         name: "Nike Victori One",
         price: "35",
         
       },
       {
         image: NikeAM90,
-        id: "010",
+        sku: "010",
         name: "Nike Air Max 90",
         price: "75",
         
