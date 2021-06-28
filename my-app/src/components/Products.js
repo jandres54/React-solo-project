@@ -22,7 +22,7 @@ export default function Products() {
     console.log(products)
     return (
         <div className="prod-container">
-            <h1>Products</h1>
+            
             <div className="products-card">
                 
                 {products.map((productsFromCache)=> {
